@@ -39,7 +39,7 @@ go get -u github.com/tylerwolf35/wego
 
 0. Run `wego` once. You will get an error message, but the `.wegorc` config file
    will be generated in your `$HOME` directory (it will be hidden in some file
-   managers due to the filename starting with a dot).
+   managers due to the filename starting with a dot). If the command is not found run `alias wego=/home/$USER/go/bin/wego`.
 0. __With a [Dark Sky](https://darksky.net) account__ (new default)
     * Create your account on https://darksky.net/dev
     * Update the following `.wegorc` config variables to fit your needs:
@@ -53,7 +53,7 @@ go get -u github.com/tylerwolf35/wego
     * Update the following `.wegorc` config variables to fit your needs:
     ```
       backend=openweathermap
-      location=New York
+      location=Palo Alto
       owm-api-key=YOUR_OPENWEATHERMAP_API_KEY_HERE
     ```
 0. __With a [Worldweatheronline](http://www.worldweatheronline.com/) account__
@@ -61,7 +61,7 @@ go get -u github.com/tylerwolf35/wego
     * Update the following `.wegorc` config variables to fit your needs:
     ```
       backend=worldweatheronline
-      location=New York
+      location=Palo Alto
       wwo-api-key=YOUR_WORLDWEATHERONLINE_API_KEY_HERE
     ```
 0. You may want to adjust other preferences like `days`, `units` and `…-lang` as
@@ -85,7 +85,7 @@ file location.
 
 ## License - ISC
 
-Copyright (c) 2014-2017,  <teichm@in.tum.de>
+Copyright (c) Tyler Wolf, 2020
 
 Permission to use, copy, modify, and/or distribute this software for any purpose
 with or without fee is hereby granted, provided that the above copyright notice
