@@ -77,12 +77,6 @@ go get -u github.com/tylerwolf35/wego
 You can set the `$WEGORC` environment variable to override the default config
 file location.
 
-## Todo
-
-* more [backends and frontends](https://github.com/schachmat/wego/wiki/How-to-write-a-new-backend-or-frontend)
-* resolve ALL the [issues](https://github.com/schachmat/wego/issues)
-* don't forget the [TODOs in the code](https://github.com/schachmat/wego/search?q=TODO&type=Code)
-
 ## License - ISC
 
 Copyright (c) Tyler Wolf, 2020
