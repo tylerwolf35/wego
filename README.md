@@ -41,7 +41,7 @@ go get -u github.com/tylerwolf35/wego
    will be generated in your `$HOME` directory (it will be hidden in some file
    managers due to the filename starting with a dot). If the command is not found run `alias wego=/home/$USER/go/bin/wego`.
 0. __With a [Dark Sky](https://darksky.net) account__ (new default)
-    * Create your account on https://darksky.net/dev
+    * Create your account at https://darksky.net/dev
     * Update the following `.wegorc` config variables to fit your needs:
     ```
       backend=darksky
@@ -79,7 +79,7 @@ file location.
 
 ## License - ISC
 
-Copyright (c) Tyler Wolf, 2020
+Copyright (c) 2020, Tyler Wolf
 
 Permission to use, copy, modify, and/or distribute this software for any purpose
 with or without fee is hereby granted, provided that the above copyright notice
