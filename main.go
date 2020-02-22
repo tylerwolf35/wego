@@ -42,8 +42,8 @@ func main() {
 	}
 
 	// initialize global flags and default config
-	location := flag.String("location", "40.748,-73.985", "`LOCATION` to be queried")
-	flag.StringVar(location, "l", "40.748,-73.985", "`LOCATION` to be queried (shorthand)")
+	location := flag.String("location", "37.4275,-122.1697", "`LOCATION` to be queried")
+	flag.StringVar(location, "l", "37.4275,-122.1697", "`LOCATION` to be queried (shorthand)")
 	numdays := flag.Int("days", 3, "`NUMBER` of days of weather forecast to be displayed")
 	flag.IntVar(numdays, "d", 3, "`NUMBER` of days of weather forecast to be displayed (shorthand)")
 	unitSystem := flag.String("units", "metric", "`UNITSYSTEM` to use for output.\n    \tChoices are: metric, imperial, si, metric-ms")
