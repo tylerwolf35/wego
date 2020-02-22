@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/schachmat/wego/iface"
+	"github.com/tylerwolf35/wego/iface"
 )
 
 type darkSkyConfig struct {
