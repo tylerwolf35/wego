@@ -1,4 +1,5 @@
 **wego** is a weather client for the terminal.
+## A fork of wego with Dark Sky support
 
 ![Screenshots](http://schachmat.github.io/wego/wego.gif)
 
@@ -39,13 +40,13 @@ go get -u github.com/schachmat/wego
 0. Run `wego` once. You will get an error message, but the `.wegorc` config file
    will be generated in your `$HOME` directory (it will be hidden in some file
    managers due to the filename starting with a dot).
-0. __With a [forecast.io](http://forecast.io/) account__ (new default)
-    * Create your account on https://developer.forecast.io/register
+0. __With a [Dark Sky](https://darksky.net) account__ (new default)
+    * Create your account on https://darksky.net/dev
     * Update the following `.wegorc` config variables to fit your needs:
     ```
-      backend=forecast.io
-      location=40.748,-73.985
-      forecast-api-key=YOUR_FORECAST.IO_API_KEY_HERE
+      backend=darksky
+      location=37.4419,122.1430
+      darksky-api-key=YOUR_DARKSKY_API_KEY_HERE
     ```
 0. __With an [Openweathermap](https://home.openweathermap.org/) account__
     * You can create an account and get a free API key by [signing up](https://home.openweathermap.org/users/sign_up)
