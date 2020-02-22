@@ -38,7 +38,7 @@ go get -u github.com/tylerwolf35/wego
 
 0. Run `wego` once. You will get an error message, but the `.wegorc` config file
    will be generated in your `$HOME` directory (it will be hidden in some file
-   managers due to the filename starting with a dot). If the command is not found run `alias wego=/home/$USER/go/bin/wego`.
+   managers due to the filename starting with a dot). If the command is not found put `alias wego=/home/$USER/go/bin/wego` (or wherever your go path is) in your shell's rc file..
 0. __With a [Dark Sky](https://darksky.net) account__ (new default)
     * Create your account at https://darksky.net/dev
     * Update the following `.wegorc` config variables to fit your needs:
