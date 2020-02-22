@@ -1,7 +1,7 @@
 **wego** is a weather client for the terminal.
 ## A fork of wego with Dark Sky support
 
-![Screenshots](http://schachmat.github.io/wego/wego.gif)
+![Screenshots](https://raw.githubusercontent.com/tylerwolf35/wego/gh-pages/wego.png)
 
 ## Features
 
