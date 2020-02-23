@@ -43,7 +43,7 @@ go get -u github.com/tylerwolf35/wego
     * Update the following `.wegorc` config variables to fit your needs:
     ```
       backend=darksky
-      location=37.4419,122.1430
+      location=37.4275,-122.1697
       darksky-api-key=YOUR_DARKSKY_API_KEY_HERE
     ```
 0. __With an [Openweathermap](https://home.openweathermap.org/) account__
