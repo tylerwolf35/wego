@@ -23,8 +23,7 @@
   [goenv](https://github.com/syndbg/goenv) if your distribution does not
   support Go >= 1.5 yet)
 * utf-8 terminal with 256 colors
-* A sane monospaced font containing all the required runes (I use `dejavu sans
-  mono`)
+* A sane monospaced font containing all the required runes
 * An API key for the backend (see Setup below)
 
 ## Installation
