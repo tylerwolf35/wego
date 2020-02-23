@@ -32,6 +32,10 @@ To install or update the wego binary into your `$GOPATH` as usual, run:
 ```shell
 go get -u github.com/tylerwolf35/wego
 ```
+If you use Arch Linux or an Arch based distribution you can install this fork of wego from the [AUR](https://aur.archlinux.org/packages/wego-darksky) using the following command (edit for use with your AUR helper):
+```shell
+pikaur -S wego-darksky
+```
 
 ## Setup
 
